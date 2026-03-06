@@ -5,6 +5,38 @@
 The Mutual Funds Performance Prediction System is a machine learning based application that predicts the future performance of mutual funds using historical data.
 The system helps investors make better financial decisions by analyzing trends and forecasting returns.
 
+ ## System Architecture
+
+The system follows a client-server architecture:
+
+1. **Frontend (React + Vite)**
+
+   * Provides the user interface for selecting mutual funds and viewing predictions.
+
+2. **Backend (Spring Boot)**
+
+   * Handles API requests and processes data.
+
+3. **Machine Learning Models**
+
+   * ARIMA
+   * Linear Regression
+   * Random Forest
+     Used to predict future mutual fund NAV trends.
+
+4. **Dataset**
+   Historical mutual fund data used for training and prediction.
+
+User
+  ↓
+React Frontend
+  ↓
+Spring Boot API
+  ↓
+Machine Learning Models
+(ARIMA / Random Forest / Linear Regression)
+  ↓
+Prediction Results
 ## Technologies Used
 
 * Java
@@ -56,6 +88,10 @@ The system uses multiple machine learning algorithms to analyze historical mutua
 * Add more advanced ML algorithms
 * Integrate real-time financial data
 * Improve prediction accuracy
+
+ 
+   
+
 
 ## Author
 
