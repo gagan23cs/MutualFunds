@@ -5,6 +5,11 @@
 The Mutual Funds Performance Prediction System is a machine learning based application that predicts the future performance of mutual funds using historical data.
 The system helps investors make better financial decisions by analyzing trends and forecasting returns.
 
+## Problem Statement
+
+Investors often struggle to identify high-performing mutual funds due to the large amount of financial data available. 
+This project aims to analyze historical mutual fund data and use machine learning algorithms to predict future NAV trends, helping investors make informed investment decisions.
+
  ## System Architecture
 
 The system follows a client-server architecture:
@@ -24,8 +29,16 @@ The system follows a client-server architecture:
    * Random Forest
      Used to predict future mutual fund NAV trends.
 
-4. **Dataset**
-   Historical mutual fund data used for training and prediction.
+4. Dataset
+
+The system uses historical mutual fund data including:
+
+- Net Asset Value (NAV)
+- Historical returns
+- Fund category information
+- Market performance indicators
+
+This dataset is used to train and evaluate the machine learning models.
 
 User
   ↓
@@ -88,8 +101,6 @@ The system uses multiple machine learning algorithms to analyze historical mutua
 * Add more advanced ML algorithms
 * Integrate real-time financial data
 * Improve prediction accuracy
-
- 
    
 
 
