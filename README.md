@@ -1,16 +1,62 @@
-# React + Vite
+# Mutual Funds Performance Prediction System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The Mutual Funds Performance Prediction System is a machine learning based application that predicts the future performance of mutual funds using historical data.
+The system helps investors make better financial decisions by analyzing trends and forecasting returns.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
 
-## React Compiler
+* Java
+* Spring Boot
+* React
+* Vite
+* Machine Learning
+* REST API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+* Analyze historical mutual fund data
+* Predict future fund performance
+* Interactive dashboard for visualization
+* Investment insights and recommendations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+* Frontend: React + Vite
+* Backend: Spring Boot
+* Machine Learning: Prediction model using historical data
+
+## How to Run the Project
+
+### Backend
+
+1. Navigate to backend folder
+2. Run Spring Boot application
+    Run:
+     mvn spring-boot:run
+
+### Frontend
+
+1. Navigate to frontend folder
+2. Run:
+   npm install
+   npm run dev
+
+## Machine Learning Algorithms Used
+
+The system uses multiple machine learning algorithms to analyze historical mutual fund data and predict future performance.
+
+* ARIMA (AutoRegressive Integrated Moving Average) – Used for time series forecasting of mutual fund NAV values based on historical trends.
+* Linear Regression – Predicts future fund performance by identifying relationships between historical data and returns.
+* Random Forest– An ensemble learning algorithm that improves prediction accuracy by combining multiple decision trees and reducing overfitting.
+
+## Future Improvements
+
+* Add more advanced ML algorithms
+* Integrate real-time financial data
+* Improve prediction accuracy
+
+## Author
+
+Gagan V
